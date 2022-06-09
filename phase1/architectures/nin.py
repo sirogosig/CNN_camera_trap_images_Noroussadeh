@@ -1,5 +1,5 @@
 import tensorflow as tf
-import common
+import architectures.common
 
 def block(x, spec, wd, is_training):
   with tf.variable_scope('conv1'):

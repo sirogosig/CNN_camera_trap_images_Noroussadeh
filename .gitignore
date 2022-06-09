@@ -1,0 +1,14 @@
+
+.DS_Store
+*.local
+phase1/__pycache__/arch.cpython-37.pyc
+phase1/__pycache__/data_loader.cpython-37.pyc
+phase1/architectures/__pycache__/__init__.cpython-37.pyc
+*.pyc
+pre-trained/phase2_recognition_only/snapshot-55.index
+pre-trained/phase2_recognition_only/snapshot-55.meta
+pre-trained/phase2_recognition_only/snapshot-55.data-00000-of-00001
+phase1/trained_model/snapshot-55.data-00000-of-00001
+*.index
+*.meta
+*.data-00000-of-00001

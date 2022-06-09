@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tensorflow.python.ops import control_flow_ops
 from tensorflow.python.training import moving_averages
-import common
+import architectures.common
 
 
 def inference(x, depth, num_output, wd, is_training):

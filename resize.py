@@ -8,8 +8,8 @@ import os
 import glob
 from multiprocessing import Process
 
-src_dir= "/project/EvolvingAI/mnorouzz/Serengiti/SER/S6/"
-dst_dir= "/gscratch/mnorouzz/S6/"
+src_dir="/Users/cyrilmonette/Desktop/UoB\ 2021-2022/Master\ -\ Biorobotique/Dissertation/CNN_camera_trap_images_Noroussadeh"
+dst_dir="/Users/cyrilmonette/Desktop/UoB\ 2021-2022/Master\ -\ Biorobotique/Dissertation/CNN_camera_trap_images_Noroussadeh "
 
 
 def divide(t,n,i):
@@ -31,7 +31,7 @@ def do_chunk(pid,filelist):
           os.makedirs(path)
         mpimg.imsave(dst_dir+row[len(src_dir):],img)
       except:
-        print 'Severe Error for'+row
+        print('Severe Error for'+row)
         #raise
     print("Process "+str(pid)+"  is done")
 
@@ -40,7 +40,7 @@ if __name__ == '__main__':
       allfiles=[]
       for path, subdirs, files in os.walk(src_dir):
         for f in files:
-          if f.endswith(".JPG") or f.endswith(".jpg"):
+          if f.endswith(".JPG") or f.endswith(".jpg") or f.endswith(".jpeg"):
             allfiles.append(os.path.join(path,f))
             if len(allfiles)%10000==0:
               print(len(allfiles))

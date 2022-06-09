@@ -198,7 +198,7 @@ def train(args):
       if args.transfer_mode[0]==0:
         pretrained_loader = tf.train.Saver()
       else:
-        pretrained_loader = tf.train.p(var_list= exclude())
+        pretrained_loader = tf.train.Saver(var_list= exclude())
 
     # Create a saver.
     saver = tf.train.Saver(tf.global_variables(), max_to_keep= 5)

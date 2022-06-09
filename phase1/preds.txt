@@ -1,0 +1,6 @@
+1,b'/Users/cyrilmonette/Desktop/UoB 2021-2022/Master - Biorobotique/Dissertation/CNN_camera_trap_images_Noroussadeh/phase1/test_pic1.jpeg',1,[1, 0],[1.0000, 0.0000]
+2,b'/Users/cyrilmonette/Desktop/UoB 2021-2022/Master - Biorobotique/Dissertation/CNN_camera_trap_images_Noroussadeh/phase1/test_pic3.jpeg',0,[0, 1],[0.9417, 0.0583]
+3,b'/Users/cyrilmonette/Desktop/UoB 2021-2022/Master - Biorobotique/Dissertation/CNN_camera_trap_images_Noroussadeh/phase1/test_pic2.jpeg',0,[1, 0],[0.5659, 0.4341]
+4,b'/Users/cyrilmonette/Desktop/UoB 2021-2022/Master - Biorobotique/Dissertation/CNN_camera_trap_images_Noroussadeh/phase1/test_pic4.jpeg',0,[0, 1],[0.6327, 0.3673]
+5,b'/Users/cyrilmonette/Desktop/UoB 2021-2022/Master - Biorobotique/Dissertation/CNN_camera_trap_images_Noroussadeh/phase1/test_pic5.jpeg',0,[0, 1],[0.9429, 0.0571]
+6,b'/Users/cyrilmonette/Desktop/UoB 2021-2022/Master - Biorobotique/Dissertation/CNN_camera_trap_images_Noroussadeh/phase1/test_pic6.jpeg',1,[1, 0],[0.9961, 0.0039]

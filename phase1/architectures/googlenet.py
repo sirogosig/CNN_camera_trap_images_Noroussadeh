@@ -1,5 +1,5 @@
 import tensorflow as tf
-import common
+import architectures.common
 
 def inception(x, conv1_size, conv3_size, conv5_size, pool1_size, wd, is_training):
   with tf.variable_scope("conv_1"):

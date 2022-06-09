@@ -1,0 +1,6 @@
+test_pic1.jpeg,1
+test_pic2.jpeg,0
+test_pic3.jpeg,0
+test_pic4.jpeg,0
+test_pic5.jpeg,0
+test_pic6.jpeg,1

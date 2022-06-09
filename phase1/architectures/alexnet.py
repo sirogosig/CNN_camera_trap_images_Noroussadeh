@@ -1,5 +1,5 @@
 import tensorflow as tf
-import common
+import architectures.common
 
 def inference(x, num_output, wd, dropout_rate, is_training):
     
